@@ -147,6 +147,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     disable_configstore
 
+# Charger
+PRODUCT_PACKAGES += \
+    charger_res_images
+
 # Device-specific settings
 PRODUCT_PACKAGES += \
     XiaomiParts
