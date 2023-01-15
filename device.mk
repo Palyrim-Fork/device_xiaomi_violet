@@ -154,7 +154,8 @@ PRODUCT_PACKAGES += \
 
 # Dexpreopt
 PRODUCT_DEXPREOPT_SPEED_APPS += \
-    SystemUI
+    SystemUI \
+    Settings
 
 # Display/Graphics
 PRODUCT_PACKAGES += \
