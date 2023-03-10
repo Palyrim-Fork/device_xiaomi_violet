@@ -477,6 +477,3 @@ PRODUCT_PACKAGES += \
     libqdMetaData \
     libqdMetaData.system \
     libqdMetaData.vendor
-
-# Wallpapers
-TARGET_INCLUDE_LIVE_WALLPAPERS := false
