@@ -29,7 +29,7 @@ OCTAVI_BUILD_TYPE := Official
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # Charging Animation
-TARGET_INCLUDE_PIXEL_CHARGER := true
+TARGET_USE_PIXEL_CHARGER := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := octavi_violet
