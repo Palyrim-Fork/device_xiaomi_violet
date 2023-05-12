@@ -17,9 +17,23 @@ $(call inherit-product, vendor/dolby/config.mk)
 # MiuiCamera
 $(call inherit-product, vendor/MiuiCamera/config.mk)
 
+# GAPPS_BUILD_TYPE
+WITH_GAPPS := 2
+
+# Valid for core/full GAPPS
+TARGET_USE_GOOGLE_TELEPHONY := false
+
+#Alpha build tag
+ALPHA_BUILD_TYPE := UNOFFICIAL
+ALPHA_MAINTAINER := Dr.Opto
+
+# Alpha internal properties
+TARGET_INCLUDE_MATLOG := false
+TARGET_USE_PIXEL_LAUNCHER := false
+TARGET_EXCLUDES_AUDIOFX := true
+
 # Device Flags
-TARGET_USES_BLUR := true
-TARGET_INCLUDE_LIVE_WALLPAPERS := true
+TARGET_ENABLE_BLUR := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_SUPPORTS_QUICK_TAP := true
 
