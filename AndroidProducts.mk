@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/octavi_violet.mk
+    $(LOCAL_DIR)/lineage_violet.mk
 
 COMMON_LUNCH_CHOICES := \
-    octavi_violet-userdebug \
-    octavi_violet-user \
-    octavi_violet-eng
+    lineage_violet-userdebug \
+    lineage_violet-user \
+    lineage_violet-eng

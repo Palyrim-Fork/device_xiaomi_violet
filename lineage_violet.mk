@@ -9,7 +9,7 @@
 $(call inherit-product, device/xiaomi/violet/device.mk)
 
 # Inherit some common Octavi stuff.
-$(call inherit-product, vendor/octavi/config/common_full_phone.mk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Sony Dolby
 $(call inherit-product, vendor/dolby/config.mk)
@@ -17,13 +17,11 @@ $(call inherit-product, vendor/dolby/config.mk)
 # MiuiCamera
 $(call inherit-product, vendor/MiuiCamera/config.mk)
 
-# Environment Flags
+# Device Flags
 TARGET_USES_BLUR := true
 TARGET_INCLUDE_LIVE_WALLPAPERS := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_SUPPORTS_QUICK_TAP := true
-OCTAVI_MAINTAINER := kibria5
-OCTAVI_BUILD_TYPE := Official
 
 # Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
@@ -32,7 +30,7 @@ TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_USE_PIXEL_CHARGER := true
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := octavi_violet
+PRODUCT_NAME := lineage_violet
 PRODUCT_DEVICE := violet
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 7 Pro
